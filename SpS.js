@@ -13,6 +13,7 @@ const gencompchoice=()=>{
         console.log("the game was draw");
         msg.innerText="the game was draw";
         msg.style.backgroundColor="blue";
+        msg.style.color="yellow";
     }
     const showwiner=(userwin)=>{
         if(userwin==true){
